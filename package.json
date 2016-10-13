@@ -1,0 +1,17 @@
+{
+  "name": "react-todo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --progress --colors --watch",
+    "build": "webpack --progress --colors"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-loader": "^6.2.5",
+    "jsx-loader": "^0.13.2"
+  }
+}

@@ -46,12 +46,35 @@
 
 	'use strict';
 
-	// import Info from './getInfo.js'
-	var Info = __webpack_require__(1);
+	var _getInfo = __webpack_require__(1);
+
+	var Info = _interopRequireWildcard(_getInfo);
+
+	function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+	// var Info = require('./getInfo.js')
 	var React = __webpack_require__(2);
 	var ReactDOM = __webpack_require__(35);
 
-	var list = ['sj', 'dw', 'www'];
+	var list = ['sssssj', 'dw', 'www'];
+
+	//listContainer
+
+	var listContainer = React.createClass({
+		displayName: 'listContainer',
+
+		render: function render() {
+			return;
+		}
+	});
+
+	//list components
+
+	var listComponent = React.createClass({
+		displayName: 'listComponent',
+
+		render: function render() {}
+	});
 
 	// var testDom = React.creat
 	ReactDOM.render(React.createElement(

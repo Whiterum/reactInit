@@ -1,9 +1,25 @@
-// import Info from './getInfo.js'
-var Info = require('./getInfo.js')
+import * as Info from './getInfo.js'
+// var Info = require('./getInfo.js')
 var React = require('react')
 var ReactDOM = require('react-dom')
 
-const list = ['sj','dw','www']
+const list = ['ssj','dw','www']
+
+//listContainer
+
+var listContainer = React.createClass({
+	render: function() {
+		return 
+	}
+})
+
+//list components
+
+var listComponent = React.createClass({
+	render: () => {
+
+	}
+})
 
 // var testDom = React.creat
 ReactDOM.render(
